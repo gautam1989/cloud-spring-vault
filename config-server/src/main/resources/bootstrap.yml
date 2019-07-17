@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: vault, git
+  cloud.config.server.vault.kvVersion: 2
+  cloud.config.server.vault.profileSeparator: /
+  cloud.config.server.git.uri: file://${user.home}/git-repo
+
+server:
+  port: 8888

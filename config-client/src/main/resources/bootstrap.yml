@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    config:
+      token: s.ryBff4NcHBdXykUR912sXs5t
+      uri: http://localhost:8888
